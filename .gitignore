@@ -1,0 +1,31 @@
+# Bancos, backups e dados volumosos
+*.bak
+*.mdf
+*.ldf
+*.bacpac
+*.dacpac
+*.zip
+*.7z
+*.parquet
+*.db
+*.sqlite
+
+# Segredos e arquivos locais
+.env
+.env.*
+!.env.example
+*.secret
+.vscode/settings.json
+
+# Python e Jupyter (fases futuras)
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Temporarios
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
